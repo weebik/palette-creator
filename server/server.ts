@@ -6,7 +6,14 @@ import generateRoute from "./routes/generate";
 dotenv.config();
 
 const app = express();
-app.use(cors());
+app.use(
+  cors({
+    origin: "https://palettecreator-weebik.vercel.app",
+    methods: ["POST", "GET", "OPTIONS"],
+    credentials: false,
+  })
+);
+
 app.use(express.json());
 
 app.use("/generate", generateRoute);
