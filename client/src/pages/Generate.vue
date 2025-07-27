@@ -46,7 +46,7 @@ async function generatePalette() {
   palette.value = null;
 
   try {
-    const res = await fetch("http://localhost:5000/generate", {
+    const res = await fetch(import.meta.env.API_URL + "/generate", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({
