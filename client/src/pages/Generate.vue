@@ -29,8 +29,8 @@ import ColorGrid from "../components/ColorGrid.vue";
 import FeedbackSection from "../components/FeedbackSection.vue";
 
 const prompt = ref("");
-const primaryCount = ref<number | null>(null);
-const accentCount = ref<number | null>(null);
+const primaryCount = ref<number | undefined>(undefined);
+const accentCount = ref<number | undefined>(undefined);
 const loading = ref(false);
 const palette = ref<{ primary: string[]; accent: string[] } | null>(null);
 
