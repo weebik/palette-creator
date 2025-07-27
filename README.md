@@ -154,16 +154,14 @@ Project Link: [https://github.com/weebik/palette-creator](https://github.com/wee
 
 
 <!-- MARKDOWN LINKS & IMAGES -->
-[contributors-shield]: https://img.shields.io/github/contributors/weebik/weebsite.svg?style=for-the-badge
-[contributors-url]: https://github.com/weebik/weebsite/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/weebik/weebiste.svg?style=for-the-badge
-[forks-url]: https://github.com/weebik/weebsite/network/members
-[stars-shield]: https://img.shields.io/github/stars/weebik/weebsite.svg?style=for-the-badge
-[stars-url]: https://github.com/weebik/weebsite/stargazers
-[issues-shield]: https://img.shields.io/github/issues/weebik/weebsite.svg?style=for-the-badge
-[issues-url]: https://github.com/weebik/weebsite/issues
+[forks-shield]: https://img.shields.io/github/forks/weebik/palette-creator.svg?style=for-the-badge
+[forks-url]: https://github.com/weebik/palette-creator/network/members
+[stars-shield]: https://img.shields.io/github/stars/weebik/palette-creator.svg?style=for-the-badge
+[stars-url]: https://github.com/weebik/palette-creator/stargazers
+[issues-shield]: https://img.shields.io/github/issues/weebik/palette-creator.svg?style=for-the-badge
+[issues-url]: https://github.com/weebik/palette-creator/issues
 [license-shield]: https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge
-[license-url]: https://img.shields.io/github/license/weebik/weebsite%2Ffrontend%2FLICENSE.TXT
+[license-url]: https://github.com/weebik/palette-creator/blob/main/LICENSE
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/weebik/
 [Typescript]: https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white

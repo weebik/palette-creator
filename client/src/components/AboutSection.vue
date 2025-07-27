@@ -15,7 +15,7 @@
         >
         to generate palettes based on user input. You can see the source code
         <a
-          href="https://groq.com"
+          href="https://github.com/weebik/palette-creator"
           rel="noopener"
           target="_blank"
           class="font-bold text-rose-400 hover:text-rose-700/90"
