@@ -27,6 +27,7 @@ import GenerateForm from "../components/GenerateForm.vue";
 import GenerateTitle from "../components/GenerateTitle.vue";
 import ColorGrid from "../components/ColorGrid.vue";
 import FeedbackSection from "../components/FeedbackSection.vue";
+const API_URL = import.meta.env.VITE_API_URL;
 
 const prompt = ref("");
 const primaryCount = ref<number | undefined>(undefined);
@@ -46,7 +47,7 @@ async function generatePalette() {
   palette.value = null;
 
   try {
-    const res = await fetch(import.meta.env.API_URL + "/generate", {
+    const res = await fetch(`${API_URL}/generate`, {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({
