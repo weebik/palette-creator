@@ -12,7 +12,7 @@
     </a>
 
     <a
-      href="https://twojastrona.pl"
+      href="https://weebsitecv.vercel.app"
       target="_blank"
       rel="noopener"
       class="text-white hover:text-rose-400 transition"
