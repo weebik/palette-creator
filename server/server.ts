@@ -10,13 +10,19 @@ app.use(
   cors({
     origin: "https://palettecreator-weebik.vercel.app",
     methods: ["POST", "GET", "OPTIONS"],
-    credentials: false,
   })
 );
+
+app.options("*", cors());
 
 app.use(express.json());
 
 app.use("/generate", generateRoute);
+
+app.get("/ping", (_req, res) => {
+  console.log("Ping received - server is alive");
+  res.status(200).json({ message: "pong" });
+});
 
 const PORT = process.env.PORT || 5000;
 app.listen(PORT, () => console.log(`Server running on port ${PORT}`));
